@@ -29,7 +29,8 @@ $ 데이터 무결성 : 데이터는 현시점에서 생성되어야 하며 신�
 2. 비정형 데이터 : 정해진 규칙없이 그 의미를 파악하기 힘든 데이터 ex) 이미지, 음성, 영상
 ```
 
-# 데이터 저장 (DB : Data base) : No SQL, SQL, Google Cloud Platform. Amazon Web Service
+# 데이터 저장 (DB : Data base)
+* No SQL, SQL, Google Cloud Platform. Amazon Web Service
 ```
 1. 무결성이 보장된 데이터를 모아두는 저장소 (Storage)
 2. 데이터 무결성 : 데이터의 가치, 신뢰
