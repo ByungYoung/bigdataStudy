@@ -17,7 +17,7 @@ public class Ex02 {
 		char b = 97;		//문자열 변수 선언 및 초기화
 		System.out.println(b);
 		float c = 10.5f;	//소수값 저장 키워드 : float, double
-		double d = 10.5;
+		double num1 = 10.5;
 		int num = 30;
 		//데이터 연산 시 : 더 큰 자료형으로 형 변환
 		System.out.println(c+num);
