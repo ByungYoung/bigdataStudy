@@ -20,6 +20,6 @@ public class Ex02 {
 		double num1 = 10.5;
 		int num = 30;
 		//데이터 연산 시 : 더 큰 자료형으로 형 변환
-		System.out.println(c+num);
+		System.out.println(c+num1+num);
 	}
 }

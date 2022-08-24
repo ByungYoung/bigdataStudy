@@ -9,6 +9,7 @@ public class Ex04 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("숫자를 입력해 주세요 >> ");
 		int num = sc.nextInt();
+		sc.close();
 		//nextInt(): 사용자로 부터 입력을 받은 값을 정수로 인식
 		int result = num/10*10;
 		System.out.println("계산 결과 >> "+result);
