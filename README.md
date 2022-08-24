@@ -58,7 +58,8 @@ $ 데이터 무결성 : 데이터는 현시점에서 생성되어야 하며 신�
 ```
 * : all
 1. Selection : 모든 Column의 데이터
-  ex) select * from departments; select department_id from departments
+  ex) select * from departments;
 2. Projection : 원하는(특정) Column의 데이터
+  ex) select department_id from departments
 3. Join : 여러개의 Table의 데이터 검색
 ```
