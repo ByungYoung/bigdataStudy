@@ -52,6 +52,11 @@ $ 데이터 무결성 : 데이터는 현시점에서 생성되어야 하며 신�
 7. DBMS (Data Base Management System) : DB 유지보수 및 사용자 요청 피드백
 ```
 
+# SQL
+```
+
+```
+
 # SQL_Select
 * select {column_name} : List 절(명시된 Column별 data가 결과로 출력)
 * from {table_name} : From 절(명시된 Column을 소유한 Table)
