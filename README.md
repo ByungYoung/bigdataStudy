@@ -51,3 +51,14 @@ $ 데이터 무결성 : 데이터는 현시점에서 생성되어야 하며 신�
   → 종속적인 삭제 방지
 7. DBMS (Data Base Management System) : DB 유지보수 및 사용자 요청 피드백
 ```
+
+# SQL_Select
+* select {column_name} : List 절(명시된 Column별 data가 결과로 출력)
+* from {table_name} : From 절(명시된 Column을 소유한 Table)
+```
+* : all
+1. Selection : 모든 Column의 데이터
+  ex) select * from departments; select department_id from departments
+2. Projection : 원하는(특정) Column의 데이터
+3. Join : 여러개의 Table의 데이터 검색
+```
