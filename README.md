@@ -67,7 +67,8 @@ $ 데이터 무결성 : 데이터는 현시점에서 생성되어야 하며 신�
 * 열 별칭 정의
 ```
 1.1개의 column당 1개의 별칭 사용 가능하다.
-2. {column_name} as {별칭} / {column_name} {}
+2. {column_name} as {별칭} / {column_name} {} :: 단일문장
+3. {column_name} "별칭" :: 복합문장
 ```
 
 # SQL_Select
