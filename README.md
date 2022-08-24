@@ -63,6 +63,13 @@ $ 데이터 무결성 : 데이터는 현시점에서 생성되어야 하며 신�
 5. 들여쓰기를 사용하면 SQL 문을 좀 더 읽기 쉽게 작성할 수 있다.
 ```
 
+# SQL_Alias
+* 열 별칭 정의
+```
+1.1개의 column당 1개의 별칭 사용 가능하다.
+2. {column_name} as {별칭} / {column_name} {}
+```
+
 # SQL_Select
 * select {column_name} : List 절(명시된 Column별 data가 결과로 출력)
 * from {table_name} : From 절(명시된 Column을 소유한 Table)
