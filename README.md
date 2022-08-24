@@ -81,4 +81,5 @@ $ 데이터 무결성 : 데이터는 현시점에서 생성되어야 하며 신�
 2. Projection : 원하는(특정) Column의 데이터
   ex) select department_id from departments
 3. Join : 여러개의 Table의 데이터 검색
+4. Distinct : 출력된 결과에서 중복된 값 
 ```
