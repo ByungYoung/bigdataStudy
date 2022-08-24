@@ -56,6 +56,7 @@ $ 데이터 무결성 : 데이터는 현시점에서 생성되어야 하며 신�
 * 열 머릿글 : 대문자로 
 * 문자, 날짜 : 왼쪽 정렬 / 숫자 : 오른쪽 정렬
 ```
+conn hr/hr
 select {column_name1}*nvl{column_name2,1) from {table_name} :: if column_name2 has a null, instead null to 1
 1. SQL 문은 대소문자를 구분하지 않는다.(장/단점 존재)
 2. SQL 문은 하나 이상의 줄에 입력할 수 있다.
