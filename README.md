@@ -75,7 +75,7 @@ select {column_name1}*nvl{column_name2,1) from {table_name} :: if column_name2 h
 # SQL_Select
 * select {column_name} : List 절(명시된 Column별 data가 결과로 출력)
 * from {table_name} : From 절(명시된 Column을 소유한 Table)
-* where {column_name} : 특정조건의 data를 (행을 제한하기 위한 조건절)
+* where {column_name으로 된 } : 특정조건의 data를 (행을 제한하기 위한 조건절)
 ```
 * : all
 1. Selection : 모든 Column의 데이터
