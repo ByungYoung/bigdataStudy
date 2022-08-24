@@ -13,7 +13,7 @@ public class Ex06 {
 		int age = sc.nextInt();
 		
 		sc.close();
-		
+//		크거나 같다면 >= : 작거나 같다면 <=
 		if(age >= 20) System.out.println("성인입니다.");
 		else System.out.println("성인이 아닙니다.");
 	}
