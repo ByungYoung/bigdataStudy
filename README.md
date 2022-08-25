@@ -79,6 +79,7 @@ select {column_name1}*nvl{column_name2,1) from {table_name} :: if column_name2 h
 * select {column_name} : List 절(명시된 Column별 data가 결과로 출력)
 * from {table_name} : From 절(명시된 Column을 소유한 Table)
 * where {column_name으로 된 } : 특정조건의 data를 (행을 제한하기 위한 조건절)
+* order by {column_name} (asc) or desc : asc(오름차순,기본값), desc(내림차순) 으로 정렬하기 위한 절
 ```
 * : all
 1. Selection : 모든 Column의 데이터
@@ -89,4 +90,24 @@ select {column_name1}*nvl{column_name2,1) from {table_name} :: if column_name2 h
 4. Distinct : 출력된 결과에서 중복된 값 
   ex) select distinct {column_name} from {table_name};
   ex) select distinct {column_name1}, {column_name2} from {table_name}; :: column_name1의 그룹화 후 column_name2의 중복제거
+```
+
+# SQL_비교연산자
+```
+1. between A and B : 범위
+  ex> format(형식)만 맞으면 실행가능
+2. In(set) : 똑같은 값 여러개를 동시에 찾을때 사용
+  ex1> 배열 (A,B,C)의 형식으로 사용하여야 함.
+  ex2> 1개를 찾을때, IN()사용하지 않고 단일 연산자(=) 사용
+3. Like : 데이터의 일부를 찾을 때 사용(정확한 포맷 수 일치)
+  ex1>% : 문장 전체를 모를 때 사용
+  ex2>_ : 한 개를 모를 때 사용
+4. Is Null : 널 값인지 조사
+```
+
+# SQL_논리연산자
+```
+1. AND : 모든 조건이 TRUE → TRUE 반환 (새로운 조건식 명시)
+2. OR : 한 가지 조건이 TRUE → TRUE 반환 (새로운 조건식 명시)
+3. NOT : 부정
 ```
