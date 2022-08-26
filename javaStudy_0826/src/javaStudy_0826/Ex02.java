@@ -15,6 +15,7 @@ public class Ex02 {
 			System.out.print(count + " 번째 정수 입력 >> ");
 			num = sc.nextInt();
 		}
+		sc.close();
 		System.out.print("종료되었습니다.");
 	}
 }
