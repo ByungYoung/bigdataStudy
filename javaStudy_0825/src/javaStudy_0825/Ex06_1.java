@@ -14,7 +14,8 @@ public class Ex06_1 {
 		System.out.println("메뉴를 고르세요.");
 		System.out.print("1. 콜라(" + food[0][1] +"원) " + "2. 생수(" + food[1][1] + "원) " + "3. 비타민워터(" + food[2][1] + "원) ");
 		buy = sc.nextInt();
-
+		sc.close();
+		
 		restMoney = price - food[buy-1][1];
 		
 		if(restMoney >= 0) {

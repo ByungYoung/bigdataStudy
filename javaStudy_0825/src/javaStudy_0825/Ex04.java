@@ -7,7 +7,7 @@ public class Ex04 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("1~5까지의 숫자를 입력해주세요 >> ");
 		int num = sc.nextInt();
-		
+		sc.close();
 		switch(num) {
 		case 1:
 			System.out.println("1을 입력했습니다.");
