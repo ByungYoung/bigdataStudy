@@ -21,6 +21,8 @@ public class Ex03 {
 		if(grade >= 0 && grade <= 100) {
 			switch(grade / 10) {
 			case 10:
+				System.out.println("A+ 학점입니다.");
+				break;
 			case 9:
 				System.out.println("A 학점입니다.");
 				break;
