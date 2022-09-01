@@ -15,6 +15,6 @@ public class Ex04 {
 		//전위연산 : 한줄에서 제일 먼저 실행
 		System.out.println(++num4);
 		//삼항연산 : 항이 3개 > 조건 ? 참 : 거짓
-		System.out.println(10<5?10:5);
+		//System.out.println(10<5?10:5);
 	}
 }

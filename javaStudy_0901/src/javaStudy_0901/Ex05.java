@@ -4,11 +4,14 @@ import java.util.Scanner;
 
 public class Ex05 {
 	public static void main(String[] args) {
-		int menu = 0, success = 0;
-		String newId,newPw;
+		int menu = 0;
+		boolean success = false;
+		
+		String newId, newPw;
 		String[] id = new String[3];
 		String[] pw = new String[3];
 		
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		
 		id[0] = "박병영";
@@ -43,13 +46,18 @@ public class Ex05 {
 				newPw = sc.next();
 				
 				for(int i = 0; i < id.length; i++) {
-					if(newId.equals(id[i]) && newPw.equals(pw[i])) success = 1; 
+					if(newId.equals(id[i]) && newPw.equals(pw[i])) {
+						success = true;
+						break;
+					}
 				}
-				if(success == 1) {
+				
+				if(success == true) {
 					System.out.println("로그인에 성공하였습니다.");
 					System.out.println("프로그램을 종료합니다.\n");
 					return;
 				}
+				
 				else System.out.println("로그인에 실패하였습니다.\n");
 				break;
 			case 3:

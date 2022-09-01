@@ -13,7 +13,7 @@ public class Ex05 {
 //		A AND B : A,B 둘다 참이어야 참
 		System.out.println(2<5 && 2>1);
 //		A OR B : A,B 둘 중 하나라도 참이면 참
-		System.out.println(2<5 || 2<1);
+		//System.out.println(2<5 || 2<1);
 //		NOT : 부정
 		System.out.println(!(2>5));
 	}

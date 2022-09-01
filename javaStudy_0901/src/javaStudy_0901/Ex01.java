@@ -4,7 +4,7 @@ public class Ex01 {
 	public static void main(String[] args) {
 		int[] arr = {1, 2, 3, 4, 5, 6, 8, 10, 7, 45, 38, 22, 68, 55, 41, 87};
 		int max = arr[0];
-		int min = arr[0];
+		//int min = arr[0];
 //		for(int i = 0; i < arr.length; i++) {
 //			if(max < arr[i]) {
 //				max = arr[i];
