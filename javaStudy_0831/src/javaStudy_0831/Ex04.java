@@ -3,22 +3,34 @@ package javaStudy_0831;
 public class Ex04 {
 	public static void main(String[] args) {
 		int countOdd = 0, countEven = 0;
-		int[] numArray = {11,16,13,54,91};
+		int[] numArray = {11, 16, 13, 54, 91};
 
 		for(int i = 0; i < numArray.length; i++) {
 			if(numArray[i]%2==0) {
 				countOdd++;
+			}
+		}
+		System.out.print("Â¦¼öÀÇ °³¼ö >> " + countOdd + "\n" + "Â¦¼ö : ");
+
+		for(int i = 0; i < numArray.length; i++) {
+			if(numArray[i]%2==0) {
 				System.out.print(numArray[i] + " ");
 			}
 		}
-		System.out.println("Â¦¼öÀÇ °³¼ö : " + countOdd);
+		System.out.println();
 
 		for(int i = 0; i < numArray.length; i++) {
 			if(numArray[i]%2==1) {
 				countEven++;
+			}
+		}
+		System.out.print("È¦¼öÀÇ °³¼ö >> " + countEven + "\n" + "È¦¼ö : ");
+		
+		for(int i = 0; i < numArray.length; i++) {
+			if(numArray[i]%2==1) {
 				System.out.print(numArray[i] + " ");
 			}
 		}
-		System.out.println("È¦¼öÀÇ °³¼ö : " + countEven);
+		System.out.println();
 	}
 }
