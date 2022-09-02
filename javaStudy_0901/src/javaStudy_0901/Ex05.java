@@ -48,17 +48,16 @@ public class Ex05 {
 				for(int i = 0; i < id.length; i++) {
 					if(newId.equals(id[i]) && newPw.equals(pw[i])) {
 						success = true;
+						System.out.println("로그인에 성공하였습니다.");
+						System.out.println("프로그램을 종료합니다.\n");
 						break;
 					}
 				}
 				
-				if(success == true) {
-					System.out.println("로그인에 성공하였습니다.");
-					System.out.println("프로그램을 종료합니다.\n");
+				if(!success) {
+					System.out.println("로그인에 실패하였습니다.\n");
 					return;
 				}
-				
-				else System.out.println("로그인에 실패하였습니다.\n");
 				break;
 			case 3:
 				System.out.println("프로그램을 종료합니다!\n");
