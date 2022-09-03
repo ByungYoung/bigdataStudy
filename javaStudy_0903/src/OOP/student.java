@@ -44,7 +44,7 @@ public class student {
 	
 	void show() {
 		System.out.println(getname() + "님 안녕하세요");
-		System.out.println("[ " + getnumber() + ", " + getage() + "살 ]");
+		System.out.println("[ " + getnumber() + ", " + getage() + "세 ]");
 		System.out.println(getname() + "님의 Java 점수는 " + scoreJava + "입니다.");
 		System.out.println(getname() + "님의 Web 점수는 " + scoreWeb + "입니다.");
 		System.out.println(getname() + "님의 Android 점수는 " + scoreAndroid + "입니다.");
