@@ -67,7 +67,7 @@ public class Ex03_musicplayList {
 				if(index == 1) {
 					System.out.print("삭제할 노래를 선택하세요 >> ");
 					int musicIndex = sc.nextInt();
-					musicList.remove(musicIndex);
+					musicList.remove(musicIndex - 1);
 					System.out.println("노래가 삭제되었습니다.");
 				}
 				else if(index == 2) {

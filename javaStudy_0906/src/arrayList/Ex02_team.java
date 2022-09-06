@@ -23,7 +23,7 @@ public class Ex02_team {
 			if(i==0)
 				System.out.printf("팀 구성은 >>");
 			System.out.printf(" %s ", team.get(i));
-			if(i==team.size()-1)
+			if(i == team.size() - 1)
 				System.out.printf("입니다.\n");
 		}
 		
