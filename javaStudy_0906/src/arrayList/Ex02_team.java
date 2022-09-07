@@ -18,15 +18,12 @@ public class Ex02_team {
 			System.out.printf("%d번쩨 팀원을 입력하세요 >> ", i + 1);
 			team.add(sc.next());
 		}
-		
-		for(int i = 0; i < team.size(); i++) {
-			if(i==0)
-				System.out.printf("팀 구성은 >>");
-			System.out.printf(" %s ", team.get(i));
-			if(i == team.size() - 1)
-				System.out.printf("입니다.\n");
+
+		System.out.printf("팀 구성은 >>");
+		for(String index : team) {
+			System.out.print(team);
 		}
-		
+		System.out.printf("입니다.\n");
 		String deleteName = "";
 		System.out.print("\n삭제할 팀원을 입력하세요 >> ");
 		deleteName = sc.next();

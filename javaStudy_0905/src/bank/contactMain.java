@@ -9,14 +9,11 @@ public class contactMain {
 		
 		contact[] contact = {c1, c2, c3, c4};
 		
-		for(int i = 0; i < contact.length; i++) {
-			/*
-			String name = contact[i].getName();
-			int age = contact[i].getAge();
-			String phoneNum = contact[i].getPhoneNum();
-			*/
-			
-			contact[i].show();
-		}
+		/*
+		 * for(int i = 0; i < contact.length; i++) { String name = contact[i].getName();
+		 * int age = contact[i].getAge(); String phoneNum = contact[i].getPhoneNum();
+		 * 
+		 * contact[i].show(); }
+		 */
 	}
 }
