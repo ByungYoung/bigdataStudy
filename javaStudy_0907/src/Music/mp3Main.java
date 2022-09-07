@@ -55,6 +55,8 @@ public class mp3Main {
 				mp.stop();
 				index--;
 				if(index >= 0) {
+					if(index >= music.size())
+						index = music.size() - 1;
 					play(music, mp, index);
 				}
 				else {
@@ -67,6 +69,8 @@ public class mp3Main {
 				mp.stop();
 				index++;
 				if(index < music.size()) {
+					if(index <= 0)
+						index = 0;
 					play(music, mp, index);
 				}
 				else {
