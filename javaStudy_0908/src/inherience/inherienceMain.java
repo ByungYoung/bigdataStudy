@@ -30,6 +30,7 @@ public class inherienceMain {
 		 * - 객체를 생성할 때 함께 호출되는 특징 때문에 주로 필드(클래스 속성)를 초기화(메모리 할당 후 최초로 값을 지정)할 때 사용
 		 */
 		inherienceSub s1 = new inherienceSub();
+		
 		inherienceSub s2 = new inherienceSub();
 		/*
 		 * 생성자가 실행될때 상위클래스의 생성자를 먼저 실행한다.
