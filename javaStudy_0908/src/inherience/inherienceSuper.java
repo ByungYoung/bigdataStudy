@@ -1,7 +1,12 @@
 package inherience;
 
-public class inherienceSuper {
-	public void coffee() {
-		System.out.println("커피 레시피");
+public abstract class inherienceSuper {
+	inherienceSuper(){
+		System.out.println("Super 생성자 호출!");
+	}
+	
+	public abstract void coffee();
+	public void water() {
+		System.out.println("Regular Water");
 	}
 }
