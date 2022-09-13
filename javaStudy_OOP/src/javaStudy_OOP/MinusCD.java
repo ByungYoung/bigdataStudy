@@ -6,8 +6,8 @@ public class MinusCD extends CD{
 	}
 
 	public void makeNum() {
-		num1 = rand.nextInt(max) + 10;
-		num2 = rand.nextInt(max) + 10;
+		num1 = rand.nextInt(max) + 1;
+		num2 = rand.nextInt(max) + 1;
 		if(num1 < num2) {
 			int temp;
 			temp = num1;

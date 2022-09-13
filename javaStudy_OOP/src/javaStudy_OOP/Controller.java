@@ -2,11 +2,11 @@ package javaStudy_OOP;
 
 import java.util.Scanner;
 
-public class MinusGame {	
+public class Controller {	
 	private CD cd;
 
-	public MinusGame() {
-		this.cd = new MinusCD(3, 89, new String[] {"Cheer up", "Sorry", "End"});
+	public Controller(CD cd) {
+		this.cd = cd;
 	}
 	
 	public void play() {
