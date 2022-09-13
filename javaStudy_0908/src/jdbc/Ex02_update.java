@@ -17,8 +17,11 @@ public class Ex02_update {
 			if(conn != null) System.out.println("Connection Success!");
 			else System.out.println("Connection Failed...");
 			
-			String sql = "Update member set pw = '1111' where id = 'hello'";
+			String sql = "Update memberInfo set pw = ? where id = ?";
 			PreparedStatement psmt = conn.prepareStatement(sql);
+			psmt.setString(1, "0000");
+			psmt.setString(2, "admin");
+			
 			int cnt = psmt.executeUpdate();
 			
 			if(cnt > 0) System.out.println("Update Success!");
