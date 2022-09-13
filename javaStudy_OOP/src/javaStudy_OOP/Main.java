@@ -1,8 +1,5 @@
 package javaStudy_OOP;
 
-import java.util.Random;
-import java.util.Scanner;
-
 public class Main {
 	public static void main(String[] args) {
 		// 1. ¸®¼Ò½º(Resource) : Model
@@ -30,7 +27,6 @@ public class Main {
 			else System.out.println(failMsg[i++]);
 		}
 		*/
-		MinusGame mg = new MinusGame();
-		mg.play();
+	
 	}
 }

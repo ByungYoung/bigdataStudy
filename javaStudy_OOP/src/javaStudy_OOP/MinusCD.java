@@ -1,19 +1,8 @@
 package javaStudy_OOP;
 
-import java.util.Random;
-
 public class MinusCD extends CD{
 	public MinusCD(int life, int max, String[] failMsg) {
-		this.rand = new Random();
-		this.num1 = 0;
-		this.num2 = 0;
-		this.life = life;
-		this.max = max;
-		this.failMsg = failMsg;
-	}
-	
-	public int getLife() {
-		return life;
+		super(life, max, failMsg);
 	}
 
 	public void makeNum() {
@@ -35,7 +24,4 @@ public class MinusCD extends CD{
 		return answer == num1 - num2;
 	}
 
-	public String getFailMsg(int i) {
-		return failMsg[i];
-	}
 }

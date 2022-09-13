@@ -3,7 +3,7 @@ package javaStudy_OOP;
 import java.util.Scanner;
 
 public class MinusGame {	
-	private MinusCD cd;
+	private CD cd;
 
 	public MinusGame() {
 		this.cd = new MinusCD(3, 89, new String[] {"Cheer up", "Sorry", "End"});
