@@ -113,6 +113,7 @@ public class DAO {
 	public memberVO selectOne(String id2) {
 		memberVO vo = null;
 		 try {
+			getConnection();
 			String sql = "select * from memberInfo where id = ?";
 			psmt = conn.prepareStatement(sql);
 			psmt.setString(1, id2);
@@ -135,6 +136,7 @@ public class DAO {
 	public ArrayList<memberVO> select() {
 		ArrayList<memberVO> list = new ArrayList<memberVO>();
 		try {
+			getConnection();
 			String sql = "select * from memberInfo";
 			psmt = conn.prepareStatement(sql);
 			

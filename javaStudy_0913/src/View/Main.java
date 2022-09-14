@@ -44,7 +44,7 @@ public class Main {
 					System.out.print(list.get(i).getId() + "/");
 					System.out.print(list.get(i).getPw() + "/");
 					System.out.print(list.get(i).getName() + "/");
-					System.out.println(list.get(i).getNick() + "/");
+					System.out.println(list.get(i).getNick());
 				}
 				break;
 			case 3:
