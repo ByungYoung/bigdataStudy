@@ -41,8 +41,8 @@
 ```
 
 # 5. Map
-** → Hash Map
- → Key = Unique**
+ → Hash Map
+ → Key = Unique
 ```
 [Iterator : 모든 키값을 가져옴]
 * Key 값으로 Value를 꺼냄
@@ -50,6 +50,8 @@
 * put(key,value)
 * remove(key)
 * clear
+* 장점 : 자료 추가, 제거에 
+* 단점 : 정렬 불가능
 ```
 
 # 6. set
