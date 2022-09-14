@@ -16,7 +16,7 @@
 * 장점 : Index가 있어 번호를 부여하거나 순서를 부여하는 등에 용이하다.
 ```
 
-# 2. Stack <First In Last Out>
+# 2. Stack {First In Last Out}
   → 프로세스(Process) 저장에 쓰임. Thread (동시 활동)에 쓰임
 ```
 * push : 추가
@@ -26,7 +26,7 @@
 * 
 ```
 
-# 3. Queue <First In First Out>
+# 3. Queue {First In First Out}
   → 프로세스(Process) 저장에 쓰임. Thread (동시 활동)에 쓰임
 ```
 * push : 추가
