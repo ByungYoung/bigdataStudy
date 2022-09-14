@@ -19,13 +19,21 @@
 # 2. Stack <First In Last Out>
   → 프로세스(Process) 저장에 쓰임. Thread (동시 활동)에 쓰임
 ```
-
+* push : 추가
+* pop : 최상위 삭제
+* clear : 전체 삭제
+* peek : 확인
+* 
 ```
 
 # 3. Queue <First In First Out>
   → 프로세스(Process) 저장에 쓰임. Thread (동시 활동)에 쓰임
 ```
-
+* push : 추가
+* pop : 최하위 삭제
+* clear : 전체 삭제
+* peek : 확인
+* 
 ```
 
 # 4. Tree
