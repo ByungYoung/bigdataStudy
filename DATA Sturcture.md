@@ -17,7 +17,7 @@
 ```
 
 # 2. Stack <First In Last Out>
-  → 프로세스(Process) 저장에 쓰임. Thread (작업 병렬 처리)에 쓰임
+  → 프로세스(Process) 저장에 쓰임. Thread (프로세스 병렬 처리)에 쓰임
 ```
 * push : 추가
 * pop : 최상위 삭제
@@ -26,7 +26,7 @@
 ```
 
 # 3. Queue <First In First Out>
-  → 프로세스(Process) 저장에 쓰임. Thread (작업 병렬 처리)에 쓰임
+  → 프로세스(Process) 저장에 쓰임. Thread (프로세스 병렬 처리)에 쓰임
 ```
 * push : 추가
 * pop : 최하위 삭제
@@ -36,10 +36,21 @@
 
 # 4. Tree
 ```
-
+* 파일 시스템 (File Management) : 추가, 삭제, 검색에 빠름
+* Directory
 ```
 
 # 5. Map
+ → Hash Map
+ → Key = Unique
+```
+# [Iterator : 모든 키값을 가져옴]
+* Key 값으로 Value를 꺼냄
+* get(key)
+* put(key,value)
+* remove(key)
+* clear
 ```
 
-```
+# 6. set
+ → 값 중복할 수 없음.
