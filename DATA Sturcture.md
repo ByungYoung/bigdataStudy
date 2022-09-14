@@ -13,27 +13,25 @@
 ```
 * 단점 : 데이터 추가, 삭제 시 메모리에 정보 복사가 일어남으로 메모리 낭비가 발생한다.
  → 속도 느림. Linked List(Header | Putter) 문제점 보완
-* 장점 : Index가 있어 번호를 부여하거나 순서를 부여하는 등에 용이하다.
+* 장점 : Index가 있어 번호를 부여하거나 순서를 부여하는 등에 적합하다.
 ```
 
 # 2. Stack <First In Last Out>
-  → 프로세스(Process) 저장에 쓰임. Thread (동시 활동)에 쓰임
+  → 프로세스(Process) 저장에 쓰임. Thread (작업 병렬 처리)에 쓰임
 ```
 * push : 추가
 * pop : 최상위 삭제
 * clear : 전체 삭제
 * peek : 확인
-* 
 ```
 
 # 3. Queue <First In First Out>
-  → 프로세스(Process) 저장에 쓰임. Thread (동시 활동)에 쓰임
+  → 프로세스(Process) 저장에 쓰임. Thread (작업 병렬 처리)에 쓰임
 ```
 * push : 추가
 * pop : 최하위 삭제
 * clear : 전체 삭제
 * peek : 확인
-* 
 ```
 
 # 4. Tree
